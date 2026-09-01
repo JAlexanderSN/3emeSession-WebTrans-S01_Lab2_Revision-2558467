@@ -1,4 +1,6 @@
-﻿namespace ZombieParty.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ZombieParty.Models
 {
     public class ZombieType
     {
@@ -24,6 +26,8 @@
             }
         }
 
+
+        [Required(ErrorMessage = "Type Name has to be filled.")]
         public string TypeName
         {
             get
