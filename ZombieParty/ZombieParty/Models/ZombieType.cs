@@ -17,6 +17,11 @@
             {
                 return m_Id;
             }
+
+            set
+            {
+                m_Id = value;
+            }
         }
 
         public string TypeName
@@ -24,6 +29,11 @@
             get
             {
                 return m_TypeName;
+            }
+
+            set
+            {
+                m_TypeName = value;
             }
         }
 
