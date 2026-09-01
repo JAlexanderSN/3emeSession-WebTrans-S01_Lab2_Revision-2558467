@@ -10,7 +10,7 @@ namespace ZombieParty.Controllers
             this.ViewBag.MaListe = new List<ZombieType>()
             {
                     new ZombieType(){m_TypeName= "Virus", m_Id=1},
-                new ZombieType(){m_TypeName= "Contact", m_Id=2}
+                    new ZombieType(){m_TypeName= "Contact", m_Id=2}
             };
 
             return View();
